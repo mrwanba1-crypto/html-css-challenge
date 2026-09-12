@@ -10,9 +10,9 @@ body {
 }
 
 header {
-    background: #350ab5;
+    background: #000000;
     color: white;
-    padding: 100px;
+    padding: 30px;
     text-align: center;
 }
 .logo {
@@ -39,8 +39,8 @@ nav a:hover {
 .hero {
     text-align: center;
     padding: 60px 20px;
-    background:#93c81f;
-    color: white;
+    background:#f3f5f1;
+    color: rgb(0, 0, 0);
 }
 
 .hero h2 {
@@ -56,42 +56,46 @@ nav a:hover {
 .hero button {
     padding: 12px 25px;
     border: none;
-    background: white;
-    color: #2563eb;
+    background: rgb(44, 13, 157);
+    color: #fcf9f7;
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .hero button:hover {
-    background: #757474;
+    background: #b5abab;
 }
 
 .cards {
     display: flex;
     justify-content: center;
-    gap: 200px;
-    padding: 70px;
+    gap: 50px;
+    padding: 40px;
     flex-wrap: wrap;
 }
 
 .card {
-    background: rgb(71, 14, 216);
+    background: rgb(186, 87, 51);
     width: 250px;
     padding: 20px;
     border-radius: 100px;
     text-align: center;
-    box-shadow: 1000px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
 }
 
 .card:hover {
     transform: translateY(-20px);
 }
-
-footer {
-    background: #1e3a8a;
-    color: white;
+#contact {
     text-align: center;
     padding: 15px;
+    background: white;
+}
+
+footer {
+    background: #134400;
+    color: white;
+    text-align: center;
+    padding: 80px;
 }
